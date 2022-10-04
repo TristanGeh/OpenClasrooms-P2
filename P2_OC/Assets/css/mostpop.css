@@ -1,0 +1,48 @@
+.HostingPop header
+{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+}
+
+.MostPop img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border-radius: 20px 0px 0 20px;
+    object-fit: cover;
+}
+
+.MostPop
+{
+    background-color: #f2f2f2;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+}
+
+.SectionPop
+{
+    width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    height: 30%;
+}
+
+.cardspop
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: fit-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #cbc2c2;
+}

@@ -1,0 +1,60 @@
+/* --------------------------Hosting Part-------------------------- */
+
+.cards 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 65%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #cbc2c2;
+}
+
+.HostingCards
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+.Hosting 
+{
+    max-width: 67% ;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.HostingCards img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.Hosting h2
+{
+    padding: 40px 0 0px 40px;
+}
+
+.More
+{
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}

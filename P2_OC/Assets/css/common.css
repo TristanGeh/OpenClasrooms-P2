@@ -1,0 +1,57 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+a 
+{
+  text-decoration: none;
+  color: black;
+}
+li 
+{
+  list-style-type: none;
+}
+
+h1 
+{
+  font-size: 30px;
+}
+h2
+{
+  font-size: 20px;
+}
+
+.cards , .cardsPop , .cardsAct
+{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.HostingPop
+{
+    margin: 0 auto;
+    max-width: 93%;
+    display: flex;
+    justify-content: space-between;  
+    border-radius: 15px;
+}
+
+.MostPop i , .Hosting i
+{
+    color: #0065FC;
+}
+
+.grey_stars i
+{
+    color:#f2f2f2;
+}
+
+
+
+figcaption
+{
+    font-weight: bold;
+}

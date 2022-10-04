@@ -1,0 +1,107 @@
+/*---------------------Title-------------------*/
+
+.search
+{
+    margin: 0 auto;
+    max-width:93%;
+}
+
+h1
+{
+    font-size: large;
+}
+
+header p
+{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/*---------------------Form-------------------*/
+
+form i
+{
+    padding: 15px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #f2f2f2;
+}
+
+.city
+{
+    border: none;
+    border-top: 1px #f2f2f2 solid;
+    border-bottom: 1px #f2f2f2 solid; 
+    padding: 13px 18px 12px 0;
+    font-weight: bold;
+    color: black;
+    margin: -4px;
+}
+
+input[type="text"]::placeholder
+ {
+    color: black;
+    padding-left: 10px;
+}
+
+input[type="text"]:focus
+ {
+    outline: none;
+}
+
+.button
+{
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 16px 16px 0;
+    padding: 14px 32px 13px 32px ;
+    color:white;
+    font-weight:bold;
+    cursor: pointer;
+    transition: 0,5 ease;
+}
+
+.button:hover
+{
+    background-color: blue;
+    opacity: 0,90;
+}
+
+/*---------------------Filter-------------------*/
+
+.filters
+{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.markFilt
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+
+.filters a
+{
+    border: 2px #f2f2f2 solid ;
+    border-left: none;
+    border-radius: 0 25px 25px 0;
+    padding: 10px 20px 9px 20px;
+    font-weight: bold;
+}
+
+.filters i 
+{
+    color:#0065FC;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #deebff;
+}
+
+#info
+{
+    padding: 30px 10px 40px 0px;
+}

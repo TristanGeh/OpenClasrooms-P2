@@ -1,0 +1,40 @@
+.SectionAct
+{
+    margin: 0 auto;
+    max-width: 93%;
+}
+
+.Activities
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsAct img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+    object-fit: contain;
+}
+
+.cardsAct
+{
+    box-shadow: 1px 1px 1px #cbc2c2 ;
+}
+
+#PomegueFrioul
+{
+
+    border-radius: 20px 20px 0 0;
+}
+
+#DameParc
+{
+    border-radius: 20px 20px 0 0;
+}
+
+.SectionAct figcaption
+{
+    padding: 14px 0 14px 8px;
+}
