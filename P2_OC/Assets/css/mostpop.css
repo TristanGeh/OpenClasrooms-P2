@@ -7,22 +7,27 @@
 
 .MostPop img
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    border-radius: 20px 0px 0 20px;
+    border-radius: 15px 0px 0 15px;
+    width: 130px;
+    height: 140px;
     object-fit: cover;
 }
 
 .MostPop
 {
     background-color: #f2f2f2;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    align-items: center;
+    padding: 15px 15px 28px 15px;
+    border-radius: 15px;
 
+}
+
+.MostPop a 
+{
+    display: flex;
+    flex-direction: row;
 }
 
 .SectionPop
@@ -35,14 +40,30 @@
 
 .cardspop
 {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    height: fit-content;
+    width: 90%;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 4px 0px 14px 4px;
     background-color: white;
     box-shadow: 1px 1px 10px #cbc2c2;
+}
+
+.cardspop figure
+{
+    display: flex;
+    
+}
+
+.cardspop figcaption
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+
+.CardsDesc
+{
+    font-weight: lighter;
 }

@@ -39,6 +39,12 @@ h2
     border-radius: 15px;
 }
 
+.HostingPop a 
+{
+    width: 100%;
+    max-height: 130px;
+}
+
 .MostPop i , .Hosting i
 {
     color: #0065FC;
@@ -54,4 +60,9 @@ h2
 figcaption
 {
     font-weight: bold;
+}
+
+img:hover
+{
+  opacity: 0.75;
 }

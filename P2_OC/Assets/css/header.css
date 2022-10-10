@@ -35,4 +35,5 @@ nav>ul>li>a
 {
     cursor: pointer;
     width: 100px;
+    padding-left: 15px;
 }
