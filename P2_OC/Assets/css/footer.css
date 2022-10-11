@@ -1,29 +1,32 @@
-.footer
-{
-    display: flex;
-    justify-content: space-around;
+footer{
     background-color: #f2f2f2;
 }
+.footer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1330px; 
+    margin: auto;
+}
 
-.propos , .hebergements , .assistance
-{
+.propos,
+.hebergements,
+.assistance {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
 }
 
-.propos h2 , .hebergements h2 , .assistance h2
-{
+.propos h2,
+.hebergements h2,
+.assistance h2 {
     padding: 50px 0 7px 0;
 }
 
-.footer ul li 
-{
+.footer ul li {
     padding-top: 10px;
 }
 
-.footer a:hover
-{
+.footer a:hover {
     padding-top: 10px;
     color: #0065FC;
 }

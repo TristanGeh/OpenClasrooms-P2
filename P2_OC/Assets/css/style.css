@@ -1,11 +1,85 @@
 /***********************************************Fonts ***********************************************/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 /***********************************Imports Stylesheets *********************************************/
-@import "common.css";
 @import "header.css";
 @import "search.css";
 @import "hosting.css";
 @import "mostpop.css";
 @import "activities.css";
 @import "footer.css";
+@import "mediaqueries.css";
 /****************************************** Styles Commun *****************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .cards,
+  .cardsPop,
+  .cardsAct {
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .HostingPop {
+    margin: 0 auto;
+    max-width: 93%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+  
+  .HostingPop a {
+    width: 100%;
+    max-height: 130px;
+  }
+  
+  .MostPop i,
+  .Hosting i {
+    color: #0065FC;
+  }
+  
+  .grey_stars i {
+    color: #f2f2f2;
+  }
+  
+  .stars{
+    font-size:small
+  }
+  
+  figcaption {
+    font-weight: bold;
+  }
+  
+  article:hover {
+    transform: scale(1.02);
+  }
+  
+  h3{
+    font-size: 98%;
+  }
+
+  .header , main{
+    max-width: 1330px;
+    margin: auto;
+  }
+  

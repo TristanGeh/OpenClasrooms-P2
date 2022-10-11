@@ -1,0 +1,116 @@
+/*Header*/
+@media screen and (max-width:768px) {
+    
+}
+
+
+/*Search*/
+
+
+
+/*Hosting-Most Popular*/
+@media screen and (max-width:1350px) {
+    .HostingPop{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+}
+
+
+/*Hosting*/
+@media screen and (max-width:1350px){
+    .Hosting{
+        max-width: 100%;
+    }
+}
+
+
+/*Most Popular*/
+@media screen and (max-width:1350px){
+    .SectionPop{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .MostPop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .cardspop{
+        width: 30%;
+    }
+}
+
+@media  screen and (max-width:1200px) {
+    .MostPop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardspop{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    .MostPop img{
+        width: 280px;
+        height: 140px;
+    }
+}
+
+
+/*Activities*/
+@media  screen and (max-width:1200px) {
+    .SectionAct{
+        width: 93%;
+    }
+
+    .Activities{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+    .PomegueFrioul{
+        display: flex;
+        flex-direction: row;
+        align-items: space-between;
+
+    }
+
+    #pomegues{
+        margin-right: 35px;
+    }
+
+    #notre_dame{
+        margin-right: 35px;
+    }
+
+    .NotreParc{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .SectionAct img{
+        object-fit: cover;
+        height: 145px;
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .cardsAct{
+        height: 200px;
+        max-width: 350px;
+        width: 100%;
+    }
+
+}
+
+
+/*Footer*/

@@ -1,69 +1,68 @@
-.HostingPop header
-{
+.HostingPop header {
     display: flex;
-    justify-content:space-around;
-    padding-top: 40px;
+    justify-content: space-between;
+    padding: 40px 30px 0 30px;
 }
 
-.MostPop img
-{
+.MostPop img {
     border-radius: 15px 0px 0 15px;
-    width: 130px;
-    height: 140px;
+    width: 114px;
+    height: 128px;
     object-fit: cover;
 }
 
-.MostPop
-{
+.MostPop {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 15px 28px 15px;
+    padding: 15px 15px 20px 15px;
     border-radius: 15px;
 
 }
 
-.MostPop a 
-{
+.MostPop a {
     display: flex;
     flex-direction: row;
 }
 
-.SectionPop
-{
+.SectionPop {
     width: 30%;
     background-color: #f2f2f2;
     border-radius: 15px;
     height: 30%;
 }
 
-.cardspop
-{
+.cardspop {
     width: 90%;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     border-radius: 15px;
-    padding: 4px 0px 14px 4px;
+    padding: 5px 5px 5px 5px;
     background-color: white;
     box-shadow: 1px 1px 10px #cbc2c2;
 }
 
-.cardspop figure
-{
+.cardspop h3{
+    padding-top: 10px;
+}
+.cardspop figure {
     display: flex;
-    
 }
 
-.cardspop figcaption
-{
+.cardspop figcaption {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 15px;
 }
 
-.CardsDesc
-{
+
+.CardsDescP {
     font-weight: lighter;
+    padding-top: 7px;
+}
+
+.cardspop strong{
+    font-weight: 600;
 }

@@ -1,99 +1,86 @@
 /*---------------------Title-------------------*/
 
-.search
-{
+.search {
     margin: 0 auto;
-    max-width:93%;
+    max-width: 93%;
 }
 
-h1
-{
+h1 {
     font-size: large;
 }
 
-header p
-{
+header p {
     margin-bottom: 30px;
     font-size: 15px;
 }
 
 /*---------------------Form-------------------*/
 
-form i
-{
+form i {
     padding: 14.5px 15px 15px 15px;
     border-radius: 15px 0px 0px 15px;
     background-color: #f2f2f2;
 }
 
-.city
-{
+.city {
     border: none;
     border-top: 1px #f2f2f2 solid;
-    border-bottom: 1px #f2f2f2 solid; 
+    border-bottom: 1px #f2f2f2 solid;
     padding: 13px 18px 12px 0;
     font-weight: bold;
     color: black;
     margin: -4px;
 }
 
-input[type="text"]::placeholder
- {
+input[type="text"]::placeholder {
     color: black;
     padding-left: 10px;
 }
 
-input[type="text"]:focus
- {
+input[type="text"]:focus {
     outline: none;
 }
 
-.button
-{
+.button {
     background-color: #0065FC;
     border: none;
     border-radius: 0 16px 16px 0;
-    padding: 14px 32px 13px 32px ;
-    color:white;
-    font-weight:bold;
+    padding: 14px 32px 13px 32px;
+    color: white;
+    font-weight: bold;
     cursor: pointer;
-    transition: 0,5 ease;
+    transition: 0, 5 ease;
 }
 
-.button:hover
-{
+.button:hover {
     background-color: blue;
-    opacity: 0,90;
+    opacity: 0, 90;
 }
 
 /*---------------------Filter-------------------*/
 
-.filters
-{
+.filters {
     display: flex;
     align-items: center;
     padding-top: 50px;
 }
 
-.markFilt
-{
+.filt {
     display: flex;
     justify-content: space-around;
     padding-left: 30px;
 }
 
-.filters a
-{
-    border: 2px #f2f2f2 solid ;
+.filters a {
+    border: 2px #f2f2f2 solid;
     border-left: none;
     border-radius: 0 25px 25px 0;
     padding: 10px 20px 9px 30px;
     font-weight: bold;
 }
 
-.filters i 
-{
-    color:#0065FC;
+.filters i {
+    color: #0065FC;
     border-radius: 50%;
     width: 40px;
     height: 42px;
@@ -105,7 +92,30 @@ input[type="text"]:focus
     left: 20px;
 }
 
-#info
-{
+.markFilt {
+    display: flex;
+}
+
+.markFilt:hover {
+    transform: scale(1.04);
+}
+
+.bouton_info p {
     padding: 30px 10px 40px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bouton_info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #0065FC;
+    border: 1px solid #f2f2f2;
+    border-radius: 100%;
+    height: 23px;
+    width: 23px;
+    margin-right: 15px;
 }

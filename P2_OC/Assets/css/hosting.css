@@ -1,18 +1,15 @@
-.cards 
-{
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 65%;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 4px 4px 75px 4px;
+    padding: 5px 5px 60px 5px;
     box-shadow: 1px 1px 10px #cbc2c2;
 }
 
-.HostingCards
-{
+.HostingCards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -22,9 +19,8 @@
 
 }
 
-.Hosting 
-{
-    max-width: 67% ;
+.Hosting {
+    max-width: 67%;
     height: 30%;
     display: flex;
     flex-direction: column;
@@ -33,38 +29,44 @@
     border-radius: 15px;
 }
 
-.HostingCards img
-{
+.HostingCards img {
     display: flex;
     width: 100%;
-    max-height: 120px;
+    max-height: 110px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
-.Hosting h2
-{
+.Hosting h2 {
     padding: 40px 0 0px 40px;
 }
 
-.More
-{
+.More {
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 40px;
     padding-left: 40px;
 }
 
+.cards figcaption {
+    padding-left: 10px;
+}
 
-.Hosting figcaption
-{
-    padding: 10px;
+.cards figcaption h3{
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.cards figure{
     display: flex;
     flex-direction: column;
 }
 
-.CardsDesc
-{
+.CardsDescH {
     font-weight: lighter;
+    padding-bottom: 10px;
 }
 
+.cards strong{
+    font-weight: 600;
+}
