@@ -1,12 +1,105 @@
 /*Header*/
-@media screen and (max-width:768px) {
-    
+@media screen and (max-width:510px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav ul{
+        width: 100%;
+        margin: 0;
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 0px;
+    }
+
+    .NavHos, .NavAct{
+        width: 50%;
+    }
+
+    .NavHos:hover , .NavAct:hover{
+        border-bottom: 3px solid #0065fc;
+        border-top: hidden;
+        padding: 20px 0px 10px 0px;
+        margin-bottom: -3px;
+    }
+
+    nav>ul>li{
+        padding: 20px 0px 10px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Logo img{
+        width: 70%;
+        position: relative;
+        left: 45px;
+    }
 }
 
 
 /*Search*/
+@media screen and (max-width:915px) {
+    
+    .filters{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .filters h2{
+        padding-bottom: 10px;
+    }
+    .markFilt{
+        padding-bottom: 13px;
+    }
+}
+@media screen and (max-width:992px) {
 
+    .filt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+}
+
+@media screen and (max-width:510px) {
+    
+    .search form{
+        display: flex;
+        justify-content: center;
+    }
+    .button{
+        display: none;
+    }
+    form i{
+        position: relative;
+        left: 3px;
+        padding: 14px 15px 16px 15px;
+    }
+    
+    .city{
+        margin: -17px;
+        padding-left: 17px;
+    }
+
+    #magnifying-glass{
+        visibility: visible;
+        background-color: #0065fc;
+        color: white;
+        border-radius: 16px;
+        position: relative;
+        right: 10px;
+    }
+
+    #magnifying-glass:hover{
+        cursor: pointer;
+        background-color: blue;
+        opacity: 0, 90;
+    }
+}
 
 /*Hosting-Most Popular*/
 @media screen and (max-width:1350px) {
@@ -25,6 +118,52 @@
     }
 }
 
+@media screen and (max-width:768px){
+    .HostingCards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .cards{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .Hosting{
+        background-color: white;
+    }
+
+    .Hosting h2{
+        padding-left: 0px;
+    }
+
+    .More{
+        padding-left: 0px;
+    }
+    .HostingCards{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding:0px;
+    }
+
+    .cards{
+        width: 100%;
+        ;
+    }
+
+    .HostingCards img{
+        object-position: 50% 70%;
+    }
+    
+}
+
+
+
 
 /*Most Popular*/
 @media screen and (max-width:1350px){
@@ -37,8 +176,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding-right: 25px;
-        padding-left: 25px;
     }
 
     .cardspop{
@@ -54,63 +191,121 @@
 
     .cardspop{
         width: 100%;
-        padding-bottom: 16px;
+        min-height: 171px;
     }
 
     .MostPop img{
-        width: 280px;
-        height: 140px;
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
     }
 }
 
+@media screen and (max-width:440px) {
+    .MostPop img{
+        width: 108px;
+    }
+}
 
 /*Activities*/
 @media  screen and (max-width:1200px) {
     .SectionAct{
-        width: 93%;
+        max-width: 93%;
     }
 
     .Activities{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        justify-content: space-around;
     }
 
 
     .PomegueFrioul{
-        display: flex;
-        flex-direction: row;
-        align-items: space-between;
-
+        width: 45%;
     }
 
-    #pomegues{
-        margin-right: 35px;
+    .PomegueFrioul figure{
+        width: 100%;
     }
 
-    #notre_dame{
-        margin-right: 35px;
+    #frioul img{
+        object-position: 1% ;
+    }
+
+    .vieux_port{
+        width: 35%;
+    }
+
+    .vieux_port figure{
+        width:100%;
+    }
+
+    .calanques{
+        width: 35%;
+    }
+
+    .calanques figure{
+        width:100%;
     }
 
     .NotreParc{
-        display: flex;
-        flex-direction: row;
+        width: 45%;
     }
 
-    .SectionAct img{
-        object-fit: cover;
-        height: 145px;
-        max-width: 350px;
+    .NotreParc figure{
         width: 100%;
     }
 
-    .cardsAct{
-        height: 200px;
-        max-width: 350px;
-        width: 100%;
+    #longchamps img{
+        object-position: 1%;
     }
 
 }
+@media screen and (max-width:600px) {
+    .Activities{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .Activities img{
+        height: 180px;
+    }
+
+    .NotreParc{
+        width: 100%;
+    }
+
+    #longchamps img{
+        height: 180px;
+    }
+
+    #notre_dame img{
+        height: 180px;
+    }
+
+    #frioul img{
+        height: 180px;
+    }
+
+    .calanques{
+        width: 100%;
+    }
+
+    .vieux_port{
+        width: 100%;
+    }
+
+    .PomegueFrioul{
+        width: 100%;
+    }
+}
 
 /*Footer*/
+@media screen and (max-width:675px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+}

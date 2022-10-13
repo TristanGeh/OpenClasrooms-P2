@@ -14,13 +14,14 @@
 <body>
     <!--Header-->
     <header class="header">
-        <div class="Logo">
-            <img src="./images/logo/Booki.png" alt="logo Booki">
-        </div>
+        
         <nav class="Nav">
+            <div class="Logo">
+                <img src="./images/logo/Booki.png" alt="logo Booki">
+            </div>
             <ul class="NaviBar">
-                <li class="NavHos"><a href="#marseille_hosting">Hébergements</a></li>
-                <li class="NavAct"><a href="#activities_marseille">Activités</a></li>
+                <li class="NavHos"><a href="#marseille_hosting" class="active">Hébergements</a></li>
+                <li class="NavAct"><a href="#activities_marseille" class="active">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +37,8 @@
                 <p>
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" name="city" placeholder="Marseille,France" class="city"><input type="button"
-                        name="Research" value="Rechercher" class="button">
+                        name="Research" value="Rechercher" class="button"><i class="fa-solid fa-magnifying-glass" id="magnifying-glass"></i>
+
                 </p>
             </form>
 
