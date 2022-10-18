@@ -6,9 +6,13 @@
 
 .MostPop img {
     border-radius: 15px 0px 0 15px;
-    width: 103px;
+    max-width: 35%;
     height: 128px;
     object-fit: cover;
+}
+
+#bleu_blanc img{
+    width: 108px;
 }
 
 .MostPop {

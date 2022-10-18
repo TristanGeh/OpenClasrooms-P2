@@ -1,5 +1,5 @@
 /*Header*/
-@media screen and (max-width:510px) {
+@media screen and (max-width:768px) {
     nav{
         display: flex;
         flex-direction: column;
@@ -41,8 +41,13 @@
 
 
 /*Search*/
-@media screen and (max-width:915px) {
-    
+@media screen and (max-width:992px) {
+
+    .filt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
     .filters{
         display: flex;
         flex-direction: column;
@@ -56,16 +61,8 @@
         padding-bottom: 13px;
     }
 }
-@media screen and (max-width:992px) {
 
-    .filt{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:flex-start;
-    }
-}
-
-@media screen and (max-width:510px) {
+@media screen and (max-width:768px) {
     
     .search form{
         display: flex;
@@ -102,7 +99,7 @@
 }
 
 /*Hosting-Most Popular*/
-@media screen and (max-width:1350px) {
+@media screen and (max-width:992px) {
     .HostingPop{
         display: flex;
         flex-direction: column-reverse;
@@ -112,7 +109,7 @@
 
 
 /*Hosting*/
-@media screen and (max-width:1350px){
+@media screen and (max-width:992px){
     .Hosting{
         max-width: 100%;
     }
@@ -131,7 +128,7 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     
     .Hosting{
         background-color: white;
@@ -166,7 +163,7 @@
 
 
 /*Most Popular*/
-@media screen and (max-width:1350px){
+@media screen and (max-width:992px){
     .SectionPop{
         width: 100%;
         margin-bottom: 40px;
@@ -179,36 +176,31 @@
     }
 
     .cardspop{
-        width: 30%;
+        width: 32%;
     }
 }
 
-@media  screen and (max-width:1200px) {
+@media screen and (max-width:768px) {
     .MostPop{
-        display: flex;
         flex-direction: column;
     }
 
     .cardspop{
         width: 100%;
-        min-height: 171px;
     }
 
     .MostPop img{
-        width: 160px;
-        height: 160px;
-        object-fit: cover;
+        max-width: 120px;
     }
-}
 
-@media screen and (max-width:440px) {
-    .MostPop img{
-        width: 108px;
+    #bleu_blanc img{
+        width: 120px;
     }
+
 }
 
 /*Activities*/
-@media  screen and (max-width:1200px) {
+@media  screen and (max-width:992px) {
     .SectionAct{
         max-width: 93%;
     }
@@ -220,8 +212,10 @@
     }
 
 
-    .PomegueFrioul{
+    .PomeguesFrioul{
         width: 45%;
+        padding: 0%;
+        padding-bottom: 40px;
     }
 
     .PomegueFrioul figure{
@@ -234,6 +228,7 @@
 
     .vieux_port{
         width: 35%;
+        padding-bottom: 40px;
     }
 
     .vieux_port figure{
@@ -242,6 +237,7 @@
 
     .calanques{
         width: 35%;
+        
     }
 
     .calanques figure{
@@ -250,6 +246,7 @@
 
     .NotreParc{
         width: 45%;
+        padding: 0%;
     }
 
     .NotreParc figure{
@@ -261,7 +258,7 @@
     }
 
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .Activities{
         display: flex;
         flex-direction: column;
@@ -286,23 +283,28 @@
 
     #frioul img{
         height: 180px;
-    }
-
-    .calanques{
         width: 100%;
     }
 
-    .vieux_port{
+    #pomegues , .calanques, #notre_dame{
+        margin-bottom: 40px;
+    }
+
+    .calanques , .calanques img{
         width: 100%;
     }
 
-    .PomegueFrioul{
+    .vieux_port , .vieux_port img{
+        width: 100%;
+    }
+
+    .PomeguesFrioul{
         width: 100%;
     }
 }
 
 /*Footer*/
-@media screen and (max-width:675px) {
+@media screen and (max-width:768px) {
     .footer{
         display: flex;
         flex-direction: column;

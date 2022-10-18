@@ -15,7 +15,9 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
   }
-  
+  main{
+    padding-bottom: 35px;
+  }
   a {
     text-decoration: none;
     color: black;
